@@ -26,7 +26,7 @@
 						</svg>
 						&nbsp;
 						<!-- Change Milligram to your full name -->
-						<h1 class="Gabriel Angelo Pilarco">Milligram</h1>
+						<h1 class="title">Gabriel Angelo Pilarco</h1>
 					</a>
 					<ul class="navigation-list float-right">
 						<li class="navigation-item">
