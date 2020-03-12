@@ -26,7 +26,7 @@
 						</svg>
 						&nbsp;
 						<!-- Change Milligram to your full name -->
-						<h1 class="title">Milligram</h1>
+						<h1 class="Gabriel Angelo Pilarco">Milligram</h1>
 					</a>
 					<ul class="navigation-list float-right">
 						<li class="navigation-item">
@@ -35,7 +35,11 @@
 								<ul class="popover-list">
 									<li class="popover-item"><a class="popover-link" href="#" title="Getting Started">BSCS</a></li>
 									<li class="popover-item"><a class="popover-link" href="#" title="Getting Started">BSIT</a></li>
+									<li class="popover-item"><a class="popover-link" href="#" title="Getting Started">BSIM</a></li>
+									<li class="popover-item"><a class="popover-link" href="#" title="Getting Started">BSDMIA</a></li>
+									<li class="popover-item"><a class="popover-link" href="#" title="Getting Started">BLIS</a></li>
 									<!-- Add 3 more courses here from college of computer studies [BSISM, BSDMIA, BLIS]. We shoud be able to see 3 more courses when you click on Courses menu -->
+									
 								</ul>
 							</div>
 						</li>
@@ -64,7 +68,24 @@
 				<h3 class="title">Welcome</h3>
 				<p>Welcome to ITDC25a Page. We require you to login before we proceed.</p>
 				<p>
-					<!-- Enter code for your login form here -->
+					<form action="#">
+   <fieldset>
+      <div class="row">
+         <div class="column">
+            <label for="txtUser">Username</label>
+            <input type="text" id="txtUser" name="txtUser">
+         </div>
+         <div class="column">
+            <label for="txtPass">Password</label>
+            <input type="password" id="txtPass" name="txtPass">
+         </div>
+         <div class="column column-20">
+            <label for="">&nbsp;</label>
+            <button type="submit" class="button-primary">Login</button>
+         </div>
+      </div>
+   </fieldset>
+</form>
 				</p>
 			</section>
 
