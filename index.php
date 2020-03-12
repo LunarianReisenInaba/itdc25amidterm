@@ -14,6 +14,29 @@
 	</head>
 	<body>
 
+
+<form action="#">
+   <fieldset>
+      <div class="row">
+         <div class="column">
+            <label for="txtUser">Username</label>
+            <input type="text" id="txtUser" name="txtUser">
+         </div>
+         <div class="column">
+            <label for="txtPass">Password</label>
+            <input type="password" id="txtPass" name="txtPass">
+         </div>
+         <div class="column column-20">
+            <label for="">&nbsp;</label>
+            <button type="submit" class="button-primary">Login</button>
+         </div>
+      </div>
+   </fieldset>
+</form>
+
+
+
+
 		<main class="wrapper">
 
 			<nav class="navigation">
