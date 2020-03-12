@@ -5,37 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="CJ Patoilo">
 		<meta name="description" content="Milligram provides a minimal setup of styles for a fast and clean starting point. Specially designed for better performance and higher productivity with fewer properties to reset resulting in cleaner code.">
-		<title> | A minimalist CSS framework.</title>
+		<title>Milligram | A minimalist CSS framework.</title>
 		<link rel="icon" href="https://milligram.github.io/images/icon.png">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-		<link rel="stylesheet" href="../dist/milligram.min.css">
-		<link rel="stylesheet" href="https://milligram.github.io/styles/main.css">
+		<link rel="stylesheet" href="dist/milligram.min.css">
+		<link rel="stylesheet" href="dist/main.css">
 	</head>
 	<body>
-
-
-<form action="#">
-   <fieldset>
-      <div class="row">
-         <div class="column">
-            <label for="txtUser">Username</label>
-            <input type="text" id="txtUser" name="txtUser">
-         </div>
-         <div class="column">
-            <label for="txtPass">Password</label>
-            <input type="password" id="txtPass" name="txtPass">
-         </div>
-         <div class="column column-20">
-            <label for="">&nbsp;</label>
-            <button type="submit" class="button-primary">Login</button>
-         </div>
-      </div>
-   </fieldset>
-</form>
-
-
-
 
 		<main class="wrapper">
 
@@ -48,27 +25,17 @@
 							</g>
 						</svg>
 						&nbsp;
+						<!-- Change Milligram to your full name -->
 						<h1 class="title">Milligram</h1>
 					</a>
 					<ul class="navigation-list float-right">
 						<li class="navigation-item">
-							<a class="navigation-link" href="#popover-grid" data-popover>Docs</a>
+							<a class="navigation-link" href="#popover-grid" data-popover>Courses</a>
 							<div class="popover" id="popover-grid">
 								<ul class="popover-list">
-									<li class="popover-item"><a class="popover-link" href="#getting-started" title="Getting Started">Getting Started</a></li>
-									<li class="popover-item"><a class="popover-link" href="#typography" title="Typography">Typography</a></li>
-									<li class="popover-item"><a class="popover-link" href="#blockquotes" title="Blockquotes">Blockquotes</a></li>
-									<li class="popover-item"><a class="popover-link" href="#buttons" title="Buttons">Buttons</a></li>
-									<li class="popover-item"><a class="popover-link" href="#lists" title="Lists">Lists</a></li>
-									<li class="popover-item"><a class="popover-link" href="#forms" title="Forms">Forms</a></li>
-									<li class="popover-item"><a class="popover-link" href="#tables" title="Tables">Tables</a></li>
-									<li class="popover-item"><a class="popover-link" href="#grids" title="Grids">Grids</a></li>
-									<li class="popover-item"><a class="popover-link" href="#codes" title="Codes">Codes</a></li>
-									<li class="popover-item"><a class="popover-link" href="#utilities" title="Utilities">Utilities</a></li>
-									<li class="popover-item"><a class="popover-link" href="#tips" title="Tips">Tips</a></li>
-									<li class="popover-item"><a class="popover-link" href="#browser-support" title="Browser Support">Browser Support</a></li>
-									<li class="popover-item"><a class="popover-link" href="#examples" title="Examples">Examples</a></li>
-									<li class="popover-item"><a class="popover-link" href="#contributing" title="Contributing">Contributing</a></li>
+									<li class="popover-item"><a class="popover-link" href="#" title="Getting Started">BSCS</a></li>
+									<li class="popover-item"><a class="popover-link" href="#" title="Getting Started">BSIT</a></li>
+									<!-- Add 3 more courses here from college of computer studies [BSISM, BSDMIA, BLIS]. We shoud be able to see 3 more courses when you click on Courses menu -->
 								</ul>
 							</div>
 						</li>
@@ -94,23 +61,10 @@
 			</nav>
 
 			<section class="container" id="examples">
-				<h5 class="title">Examples</h5>
-				<p>You can view more examples of using Milligram.</p>
+				<h3 class="title">Welcome</h3>
+				<p>Welcome to ITDC25a Page. We require you to login before we proceed.</p>
 				<p>
-					<ul>
-						<li><a href="https://milligram.github.io/#getting-started" title="Getting Started">Getting Started</a></li>
-						<li><a href="https://milligram.github.io/#typography" title="Typography">Typography</a></li>
-						<li><a href="https://milligram.github.io/#blockquotes" title="Blockquotes">Blockquotes</a></li>
-						<li><a href="https://milligram.github.io/#buttons" title="Buttons">Buttons</a></li>
-						<li><a href="https://milligram.github.io/#lists" title="Lists">Lists</a></li>
-						<li><a href="https://milligram.github.io/#forms" title="Forms">Forms</a></li>
-						<li><a href="https://milligram.github.io/#tables" title="Tables">Tables</a></li>
-						<li><a href="https://milligram.github.io/#grids" title="Grids">Grids</a></li>
-						<li><a href="https://milligram.github.io/#codes" title="Codes">Codes</a></li>
-						<li><a href="https://milligram.github.io/#utilities" title="Utilities">Utilities</a></li>
-						<li><a href="https://milligram.github.io/#tips" title="Tips">Tips</a></li>
-						<li><a href="https://milligram.github.io/#browser-support" title="Browser Support">Browser Support</a></li>
-					</ul>
+					<!-- Enter code for your login form here -->
 				</p>
 			</section>
 
@@ -127,7 +81,7 @@
 
 		</main>
 
-		<script src="https://milligram.github.io/scripts/main.js"></script>
+		<script src="dist/main.js"></script>
 
 	</body>
 </html>
